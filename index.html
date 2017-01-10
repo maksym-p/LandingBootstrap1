@@ -1,0 +1,377 @@
+﻿<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <title>Bootstrap Landing</title>
+
+      <!-- Bootstrap -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/main.css" rel="stylesheet">
+      <link href="css/font-awesome.min.css" rel="stylesheet">
+
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+      <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top" style="border-radius: 0;">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">WebSiteLogo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacts</a></li>
+              </ul>
+              <hr class="visible-xs" style="width: 85%; border-color: #555; margin: 15px auto;">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section class="carousel-main">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <div class="carousel-caption">
+                  <h1>Welcome to my Landing Page!</h1>
+                  <p>This landing page was made on HTML/CSS framework <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
+                  <a href="#" class="btn btn-primary btn-lg" role="button">View Demo</a>
+                  <a href="#" class="btn btn-link btn-lg" role="button">Free Download</a>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="carousel-caption carousel-caption-2 row">
+                  <div class="col-xs-12 col-sm-6">
+                    <h2>Our product is awesome!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                    <h2>Keep watching us!</h2>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="carousel-caption">
+                    <h2>How to use Bootstrap?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a class="btn btn-link btn-lg" href="http://getbootstrap.com/getting-started/" role="button">Read this!</a>
+              </div>
+            </div>
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container-fluid text-center features-head">
+          <h2>Try to use our products NOW!</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <hr>
+        <div class="container-fluid">
+          <ul class="list-group text-center row">
+            <li class="list-group-item col-xs-12 col-sm-4">
+              <span class="glyphicon glyphicon glyphicon-cloud-upload" aria-hidden="true"></span>
+              <h3>Our own cloud service</h3>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi.</p>
+              <a class="btn btn-primary" href="http://getbootstrap.com/getting-started/" role="button">Read more</a>
+            </li>
+            <li class="list-group-item col-xs-12 col-sm-4">
+              <span class="glyphicon glyphicon glyphicon-usd" aria-hidden="true"></span>
+              <span class="glyphicon glyphicon glyphicon-gbp" aria-hidden="true"></span>
+              <span class="glyphicon glyphicon glyphicon-euro" aria-hidden="true"></span>
+              <h3>Multicurrency payments</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, natus error sit voluptatem sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <a class="btn btn-primary" href="http://getbootstrap.com/getting-started/" role="button">Read more</a>
+            </li>
+            <li class="list-group-item col-xs-12 col-sm-4">
+              <span class="glyphicon glyphicon glyphicon-time" aria-hidden="true"></span>
+              <h3>24/7 contact center</h3>
+              <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit.</p>
+              <a class="btn btn-primary" href="http://getbootstrap.com/getting-started/" role="button">Read more</a>
+            </li>
+          </ul>
+      </div>
+      </section>
+
+      <section class="team">
+        <h2 class="text-center">Our team</h2>
+        <hr>
+        <div class="container-fluid">
+          <ul class="list-group text-center row">
+            <li class="list-group-item col-xs-12 col-sm-4">
+              <div class="teammate">
+                <img src="images/1.jpg" class="img-responsive img-rounded" alt="teammate1">
+                <div class="overlay">
+                  <a href="https://www.facebook.com" title="Facebook"><span class="fa fa-facebook"></span></a>
+                  <a href="https://twitter.com" title="Twitter"><span class="fa fa-twitter"></span></a>
+                  <a href="https://plus.google.com" title="Google+"><span class="fa fa-google-plus"></span></a>
+                </div>
+              </div>
+                <hr>
+                <span class="teammate-name">Jason</span><br>
+                <span class="teammate-position">Director</span>
+            </li>
+            <li class="list-group-item col-xs-12 col-sm-4">
+              <div class="teammate">
+                <img src="images/2.jpg" class="img-responsive img-rounded" alt="teammate2">
+                <div class="overlay">
+                  <a href="https://www.facebook.com" title="Facebook"><span class="fa fa-facebook"></span></a>
+                  <a href="https://twitter.com" title="Twitter"><span class="fa fa-twitter"></span></a>
+                  <a href="https://plus.google.com" title="Google+"><span class="fa fa-google-plus"></span></a>
+                </div>
+              </div>
+                <hr>
+                <span class="teammate-name">Monica</span><br>
+                <span class="teammate-position">Web-Designer</span>
+            </li>
+            <li class="list-group-item col-xs-12 col-sm-4">
+              <div class="teammate">
+                <img src="images/3.jpg" class="img-responsive img-rounded" alt="teammate3">
+                <div class="overlay">
+                  <a href="https://www.facebook.com" title="Facebook"><span class="fa fa-facebook"></span></a>
+                  <a href="https://twitter.com" title="Twitter"><span class="fa fa-twitter"></span></a>
+                  <a href="https://plus.google.com" title="Google+"><span class="fa fa-google-plus"></span></a>
+                </div>
+              </div>
+                <hr>
+                <span class="teammate-name">Sean</span><br>
+                <span class="teammate-position">Web-Developer</span>
+            </li>
+          </ul>
+      </div>
+      </section>
+
+      <section class="services">
+        <h2 class="text-center">Our Gallery</h2>
+        <hr>
+        <div class="container-fluid">
+          <ul class="list-group text-center row">
+            <li class="list-group-item col-xs-6 col-sm-4 col-md-3">
+              <a href="#">
+              <img src="images/nature.jpg" class="img-responsive img-rounded" alt="teammate3">
+              <div class="overlay">
+                <h4>Nature</h4>
+                  <hr>
+              </div>
+              </a>
+            </li>
+            <li class="list-group-item col-xs-6 col-sm-4 col-md-3">
+              <a href="#">
+              <img src="images/people.jpg" class="img-responsive img-rounded" alt="People">
+              <div class="overlay">
+                <h4>People</h4>
+                  <hr>
+              </div>
+              </a>
+            </li>
+            <li class="list-group-item col-xs-6 col-sm-4 col-md-3">
+              <a href="#">
+              <img src="images/weather.jpg" class="img-responsive img-rounded" alt="Weather">
+              <div class="overlay">
+                <h4>Weather</h4>
+                  <hr>
+              </div>
+              </a>
+            </li>
+            <li class="list-group-item col-xs-6 col-sm-4 col-md-3">
+              <a href="#">
+              <img src="images/animals.jpg" class="img-responsive img-rounded" alt="Goat">
+              <div class="overlay">
+                <h4>Animals</h4>
+                  <hr>
+              </div>
+              </a>
+            </li>
+            <li class="list-group-item col-xs-6 col-sm-4 col-md-3">
+              <a href="#">
+              <img src="images/child.jpg" class="img-responsive img-rounded" alt="Child">
+              <div class="overlay">
+                <h4>Children</h4>
+                  <hr>
+              </div>
+              </a>
+            </li>
+            <li class="list-group-item col-xs-6 col-sm-4 col-md-3">
+              <a href="#">
+              <img src="images/architecture.jpg" class="img-responsive img-rounded" alt="Building">
+              <div class="overlay">
+                <h4>Architecture</h4>
+                  <hr>
+              </div>
+              </a>
+            </li>
+            <li class="list-group-item col-xs-6 col-sm-4 col-md-3">
+              <a href="#">
+              <img src="images/flowers.jpg" class="img-responsive img-rounded" alt="Flower">
+              <div class="overlay">
+                <h4>Flowers</h4>
+                  <hr>
+              </div>
+              </a>
+            </li>
+            <li class="list-group-item col-xs-6 col-sm-4 col-md-3">
+              <a href="#">
+              <img src="images/cars.jpg" class="img-responsive img-rounded" alt="Car">
+              <div class="overlay">
+                <h4>Cars</h4>
+                  <hr>
+              </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="blog-posts">
+        <h2 class="text-center">Blog Posts</h2>
+        <hr>
+        <div class="container-fluid">
+          <div class="row">
+            <article class="col-xs-12 col-sm-6 blog-post">
+              <ul class="post-features">
+                <li><i class="fa fa-calendar"></i> 2017 January, 9</li>
+                <li><i class="fa fa-user"></i> <a href=#>Jason Woods</a></li>
+              </ul>
+              <div class="blog-content container-fluid">
+                <img src="images/web.jpg" class="img-rounded" alt="Web">
+                <h4><a href="#">Nemo enim ipsam voluptatem</a></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.[...]</p>
+                <a class="btn btn-primary" href="#" role="button">Read more</a>
+                <a class="btn btn-default" href="#" role="button" style="margin-right: 15px;">View Author</a>
+              </div>
+            </article>
+            <article class="col-xs-12 col-sm-6 blog-post">
+              <ul class="post-features">
+                <li><i class="fa fa-calendar"></i> 2017 January, 7</li>
+                <li><i class="fa fa-user"></i> <a href=#>Monica Franco</a></li>
+              </ul>
+              <div class="blog-content container-fluid">
+                <img src="images/slfr.jpg" class="img-rounded" alt="Slfr">
+                <h4><a href="#">Excepteur sint occaecat cupidatat non proident</a></h4>
+                <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos.[...]</p>
+                <a class="btn btn-primary" href="#" role="button">Read more</a>
+                <a class="btn btn-default" href="#" role="button" style="margin-right: 15px;">View Author</a>
+              </div>
+            </article>
+            <div class="clearfix"></div>
+            <article class="col-xs-12 col-sm-6 blog-post">
+              <ul class="post-features">
+                <li><i class="fa fa-calendar"></i> 2017 January, 2</li>
+                <li><i class="fa fa-user"></i> <a href=#>Sean Connery</a></li>
+              </ul>
+              <div class="blog-content container-fluid">
+                <img src="images/trend.png" class="img-rounded" alt="It-Trend">
+                <h4><a href="#">Duis aute irure dolor in reprehenderit in voluptate</a></h4>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita.[...]</p>
+                <a class="btn btn-primary" href="#" role="button">Read more</a>
+                <a class="btn btn-default" href="#" role="button" style="margin-right: 15px;">View Author</a>
+              </div>
+            </article>
+            <article class="col-xs-12 col-sm-6 blog-post">
+              <ul class="post-features">
+                <li><i class="fa fa-calendar"></i> 2016 December, 29</li>
+                <li><i class="fa fa-user"></i> <a href=#>Jason Woods</a></li>
+              </ul>
+              <div class="blog-content container-fluid">
+                <img src="images/keyb.jpg" class="img-rounded" alt="Keyboard">
+                <h4><a href="#">Nam libero tempore, cum soluta</a></h4>
+                <p>Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem.[...]</p>
+                <a class="btn btn-primary" href="#" role="button">Read more</a>
+                <a class="btn btn-default" href="#" role="button" style="margin-right: 15px;">View Author</a>
+              </div>
+            </article>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <h2 class="text-center">Our Contacts</h2>
+        <hr>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <img src="images/map.JPG" class="img-responsive img-rounded" alt="Map">
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <h4>Find us or make a call:</h4>
+              <p>80 Studio Studio, Studio Street, Digital Studio</p>
+              <p>044-273-1234</p>
+              <form class="form-horizontal" action="#">
+                  <h3 class="text-center">Feedback Form</h3>
+                  <div class="form-group">
+                      <input type="email" class="form-control" placeholder="Your Name" maxlength="40" />
+                  </div>
+                  <div class="form-group">
+                      <input type="email" class="form-control" placeholder="Your E-mail" maxlength="40" />
+                  </div>
+                  <div class="form-group">
+                      <textarea  class="form-control" style="height: 130px;" placeholder="Write down your message"></textarea>
+                  </div>
+                  <div class="form-group">
+                  <button type="submit" class="btn btn-primary btn-block">Send</button>
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <ul class="list-inline text-center row">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="#"><i class="fa fa-vk"></i></a></li>
+          <br>
+          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+        <p class="text-center">© 2016 Maksym Papenko. All rights reserved.</p>
+      </footer>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+    </body>
+  </html>
